@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Planetarium Menu.unity
+    guid: a96ac5b2e225222458340b7c08033a8e
+  - enabled: 1
+    path: Assets/Scenes/Mercury.unity
+    guid: b54e910ec71c96f45b079ef55ec49838
+  - enabled: 1
+    path: Assets/Scenes/AR solar system.unity
+    guid: 0e9660d85f8c69e4fa5e9e9fd59b0cd1
+  - enabled: 1
+    path: Assets/Scenes/Venus.unity
+    guid: 9a8ca6402c719624f9dcdfae963ce986
+  - enabled: 1
+    path: Assets/Scenes/Earth.unity
+    guid: 6bad62fe1c2b5f1428a791f6de67c055
+  - enabled: 1
+    path: Assets/Scenes/Neptune.unity
+    guid: 27f5cdf5f0d2a704d91baf5d89ed1d6a
+  - enabled: 1
+    path: Assets/Scenes/Moon.unity
+    guid: 07932a46b9b46d74589c784efbff6b74
+  - enabled: 1
+    path: Assets/Scenes/Uranus.unity
+    guid: 9c5a755fc1934db4caa3937e7f300271
+  - enabled: 1
+    path: Assets/Scenes/Saturn.unity
+    guid: 535390743bf2e854b8079f971450b36b
+  - enabled: 1
+    path: Assets/Scenes/Jupiter.unity
+    guid: 776746f03beca904682e7bdb726148a4
+  - enabled: 1
+    path: Assets/Scenes/Mars.unity
+    guid: 096acb81c090e314cb5831ef87aca1a8
+  - enabled: 1
+    path: Assets/Scenes/Sun.unity
+    guid: a6e243268b0dad745ae2dac68c6c9992
+  - enabled: 1
+    path: Assets/Scenes/Pluto.unity
+    guid: eba91e93a9cbc454a94032ab8ffdf9ca
+  - enabled: 1
+    path: Assets/Scenes/Blackhole.unity
+    guid: e1757fe5927c5f440abe712154edf3b6
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 0aa9ecf28104df94590b3a378149aca2, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0cc62a7dc80994541aaad15a8e6cf5d5, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 3c7c4592ca5dda44aab2171b277f6518, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 896c2c25cebadc94686e01a557fd0bce, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8ee5c248ae7a2c64c97b66d924d6d164, type: 2}
