@@ -4,20 +4,14 @@ using UnityEngine;
 
 public class Quit : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    // Method to quit the game
     public void QuitGame()
     {
-        Application.Quit();
+        // If running in the editor, stop the play mode
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();  // This will quit the application if built as a standalone.
+#endif
     }
 }
