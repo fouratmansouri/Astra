@@ -528,6 +528,7 @@ GameObject:
   - component: {fileID: 1536617601}
   - component: {fileID: 1536617600}
   - component: {fileID: 1536617602}
+  - component: {fileID: 1536617603}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -550,7 +551,7 @@ MonoBehaviour:
   m_Camera: {fileID: 1171755519}
   m_OriginBaseGameObject: {fileID: 1536617599}
   m_CameraFloorOffsetObject: {fileID: 1783614560}
-  m_RequestedTrackingOriginMode: 0
+  m_RequestedTrackingOriginMode: 1
   m_CameraYOffset: 1.1176
 --- !u!4 &1536617601
 Transform:
@@ -580,8 +581,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlanePrefab: {fileID: 864496962205947033, guid: 0fcc7d9560052ba4abb1f4c23fdc4f41, type: 3}
+  m_PlanePrefab: {fileID: 8793192275478105778, guid: e756e6e70b7fcbc4498e2b681176e7a1, type: 3}
   m_DetectionMode: 1
+--- !u!114 &1536617603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536617599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e254c17e050c58e49849a2ce6c094c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arSession: {fileID: 1485143968}
+  arPlaneManager: {fileID: 1536617602}
+  arCamera: {fileID: 1171755519}
+  simulatePlanesOnPC: 1
+  planeGenerationInterval: 1
+  planeDistance: 2
+  planeSize: {x: 1, y: 1}
+  useCustomVisualization: 1
+  planeMaterial: {fileID: 0}
+  planeColor: {r: 0, g: 0.7, b: 1, a: 0.5}
 --- !u!1 &1783614560
 GameObject:
   m_ObjectHideFlags: 0
